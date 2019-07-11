@@ -1,0 +1,10 @@
+version: 2.1
+
+orbs:
+  shellcheck: serverspec-operations/shellcheck@dev:first
+
+workflows:
+  shellcheck:
+    jobs:
+      - shellcheck/check
+
