@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  shellcheck: serverspec-operations/shellcheck@dev:7
+  shellcheck: serverspec-operations/shellcheck@dev:8
 
 workflows:
   shellcheck:
