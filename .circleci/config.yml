@@ -6,5 +6,4 @@ orbs:
 workflows:
   shellcheck:
     jobs:
-      - shellcheck/check:
-          always_success: true
+      - shellcheck/check
