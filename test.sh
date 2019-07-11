@@ -2,4 +2,4 @@
 
 # shellcheck disable=SC1091
 . foo
-
+`ls`
